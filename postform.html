@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta charset = "utf-8">
+
+<!--will i make posts here? we'll see-->
+
+<html>
+    <form action=>
+        <h1>Making a new thought</h1>
+        <p>Type thoughts into the box and we'll see what interesting stuff get's posted.</p>
+        
+        <label for="title">Title <em>(2-40 characters)</em></label> <br>
+        <input id="title" name="title" type="text" minlength="2" maxlength="40" style="width: 65%" required>
+        <br><br>
+        
+        <label for="thewords">Content <em>(2-700 characters)</em></label><br>
+        <textarea id="thewords" name="thewords" type="minlength="2" maxlength="700" 
+        rows="20" cols="45" style="width: 65%">Whatcha want to say</textarea>
+        <br><br>
+
+        <label for="name">Name of Thinker:</label><br>
+        <input id="name" name="name" type="text" pattern="^[a-zA-Z0-9 -]+$" minlength="2" maxlength="30">
+        <br><br>
+
+        <input type="submit">
+
+    </form>
+</html>
